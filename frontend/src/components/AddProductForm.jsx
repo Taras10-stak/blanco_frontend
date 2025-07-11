@@ -42,7 +42,7 @@ const AddProductForm = () => {
       });
 
       try {
-         const response = await axios.post('YOUR_BACKEND_URL/api/products/add', formData, {
+         const response = await axios.post('blanco_full-stack.up.railway.app/api/products/add', formData, {
             headers: {
                'Content-Type': 'multipart/form-data',
             },
